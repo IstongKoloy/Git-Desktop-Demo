@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+.container-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid gray;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    align-content: center;
+}
+.container-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid gray;
+    margin-top: 10px;
+    height: 200px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.box {
+    width: 200px;
+    font-size: 32px;
+    padding: 20px;
+    text-align: center;
+}
+.box1{
+    background-color: blanchedalmond;
+}
+.box2{
+    background-color: aquamarine;
+}
+.box3{
+    background-color: darkcyan;
+}
+.box4{
+    background-color: darkolivegreen;
+}
+.box5{
+    background-color: blueviolet;
+}
+.box6{
+    background-color: darkorchid;
+}
+
