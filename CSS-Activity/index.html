@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>Header</header>
+    <main>
+            <article>
+                <div class="padSaGilid">
+                    <form>
+                        <div class="container">
+                            <div class="flex-item left">
+                                <div class="user_input">
+                                    <label for="fName">Name:</label>
+                                    <input type="text" id="fName">
+                                </div>
+                                <div class="user_input">
+                                    <label for="phone">Phone:</label>
+                                    <input type="text" id="phone">
+                                </div>
+                                <div class="user_input">
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email">
+                                </div>
+                                <div class="user_input">
+                                    <label for="pickUpDT">Pickup Date/Time:</label>
+                                    <input type="datetime-local" id="pickUpDT">
+                                </div>
+                                <div class="user_input">
+                                    <label for="pickUpPlace">Pickup Place:</label>
+                                    <select id="pickUpPlace">
+                                        <option hidden></option>
+                                        <option value="ph">Philippines</option>
+                                        <option value="ph">Philippines</option>
+                                        <option value="ph">Philippines</option>
+                                        <option value="ph">Philippines</option>
+                                        <option value="ph">Philippines</option>
+                                        <option value="ph">Philippines</option>
+                                    </select>
+                                </div>
+                                <div class="user_input">
+                                    <label for="place">Dropoff Place:</label>
+                                    <input type="text" id="place">
+                                </div>
+                            </div>
+                            <div class="flex-item right">
+                                Which vehicle do you require? <br>
+                                <div class="vehicleItem">
+                                    <input type="radio" name="vehicle" id="van">
+                                    <label for="van">Van</label>
+                                </div>
+                                <div class="vehicleItem">
+                                    <input type="radio" name="vehicle" id="jeep">
+                                    <label for="jeep">Jeepney</label>
+                                </div>
+                                <div class="vehicleItem">
+                                    <input type="radio" name="vehicle" id="tryk">
+                                    <label for="tryk">Tricycle</label>
+                                </div>
+                                <div>
+                                    Extras
+                                    <div class="checkBoxes">
+                                        <input type="checkbox" id="bySeat">
+                                        <label for="bySeat">Baby Seat</label>
+                                    </div>
+                                    <div class="checkBoxes">
+                                        <input type="checkbox" id="wChair">
+                                        <label for="wChair">Wheelchair Access</label>
+                                    </div>
+                                    <div class="checkBoxes">
+                                        <input type="checkbox" id="stockTip">
+                                        <label for="stockTip">Stock Tip</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-container">
+                            <input type="submit" value="Submit Booking">
+                        </div>
+                    </form> 
+                </div>
+                
+            </article>
+        <aside>Aside</aside>
+        <nav>Nav</nav>
+    </main>
+    <footer>Footer</footer>
+</body>
+</html>

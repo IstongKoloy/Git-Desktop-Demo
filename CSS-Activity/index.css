@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header,
+footer {
+    background-color: yellowgreen;
+    height: 20vh;
+    padding: 20px;
+}
+main{
+    height: 60vh;
+    display: flex;
+}
+aside,
+nav {
+    width: 20%;
+    padding: 20px;
+}
+aside{
+    background-color: lightcoral;
+}
+nav{
+    background-color: lightblue;
+}
+article {
+    width: 60%;
+}
+form{
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+}
+.padSaGilid{
+    padding: 20px;
+}
+.container {
+    display: flex;
+    column-gap: 30px;
+}
+.flex-item.left{
+    width: 60%;
+}
+.user_input{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: stretch;
+    column-gap: 10px;
+    align-items: center;
+}
+.flex-item.right input{
+    /* display: block; */
+}
+.vehicleItem, .checkBoxes{
+    margin: 10px 0;
+}
+.btn-container input[type="submit"]{
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: lightslategray;
+    border-radius: 10px;
+}
+.btn-container input[type="submit"]:hover{
+    background-color: rgb(79, 85, 92);
+    color: white;
+}
+.btn-container{
+    text-align: center;
+}
+input, select{
+    padding: 5px;
+}
+.user_input label{
+    /* flex: 1; */
+}
+.user_input input, .user_input select{
+    flex: 1 ;
+}
