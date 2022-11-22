@@ -36,6 +36,10 @@
     font-size: 20px;
     color: white;
 }
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
 .content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
